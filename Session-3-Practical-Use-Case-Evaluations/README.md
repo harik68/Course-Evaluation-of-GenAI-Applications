@@ -1,0 +1,6 @@
+- Covers hands-on evaluation of LLMs across standard benchmarks, retrieval-augmented generation (RAG), and summarization.
+- Reviews core datasets (MMLU, HellaSwag, GSM8K, HumanEval, TruthfulQA, Big-Bench) and key evaluation dimensions like accuracy, reasoning, safety, efficiency, and robustness.
+- Introduces the RAG Triad (context relevance, groundedness, answer relevance) with supporting metrics, pipelines, and tools (e.g., RAGAS, MS MARCO, Natural Questions).
+- Explores summarization evaluation, comparing traditional metrics (ROUGE, BLEU) with modern semantic and factual consistency methods (BERTScore, BLEURT, FactCC).
+- Emphasizes human evaluation, LLM-as-judge approaches, and benchmark datasets (CNN/DailyMail, XSum, Multi-News, PubMed).
+- Concludes with a step-by-step implementation plan: select a use case, automate evaluation, monitor continuously, and share results with stakeholders.

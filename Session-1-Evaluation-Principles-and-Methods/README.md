@@ -1,0 +1,3 @@
+- Covers why evaluation is critical for GenAI, challenges of non-deterministic outputs, and the limits of traditional NLP metrics. Explores core paradigms (reference-based vs. reference-free, human vs. automated).
+- Introduces LLM-as-Judge approaches: when and how to use LLMs for evaluation, prompt design, handling bias, and ensuring reliability.
+- Emphasizes multi-dimensional, context-specific metrics and best practices for validation.

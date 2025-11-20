@@ -1,0 +1,3 @@
+- Introduces key enterprise and open-source frameworks for GenAI evaluation, highlighting their capabilities and limitations.
+- Covers enterprise tools like Azure AI Foundry and Amazon Bedrock Model Evaluation, and open-source options such as TruLens, LangSmith, Phoenix, RAGAS, and DeepEval.
+- Emphasizes how these platforms support evaluation of RAG systems, LLM observability, and custom metric design, with visualization support from tools like LLM Comparator.
