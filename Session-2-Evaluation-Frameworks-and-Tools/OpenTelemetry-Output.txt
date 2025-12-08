@@ -1,0 +1,99 @@
+{
+    "name": "format",
+    "context": {
+        "trace_id": "0x2a460edf3cce036d459b988721750d0a",
+        "span_id": "0xa953b1f6de2653f6",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": "0x54afe178c32c995e",
+    "start_time": "2025-12-03T21:45:15.823589Z",
+    "end_time": "2025-12-03T21:45:15.823612Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [
+        {
+            "name": "string-format",
+            "timestamp": "2025-12-03T21:45:15.823605Z",
+            "attributes": {
+                "value": "Hello, World!"
+            }
+        }
+    ],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.39.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+Hello, World!
+{
+    "name": "println",
+    "context": {
+        "trace_id": "0x2a460edf3cce036d459b988721750d0a",
+        "span_id": "0xf49b33961ee374ea",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": "0x54afe178c32c995e",
+    "start_time": "2025-12-03T21:45:15.824694Z",
+    "end_time": "2025-12-03T21:45:15.824737Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [
+        {
+            "name": "println",
+            "timestamp": "2025-12-03T21:45:15.824730Z",
+            "attributes": {}
+        }
+    ],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.39.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "say-hello",
+    "context": {
+        "trace_id": "0x2a460edf3cce036d459b988721750d0a",
+        "span_id": "0x54afe178c32c995e",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2025-12-03T21:45:15.823539Z",
+    "end_time": "2025-12-03T21:45:15.825537Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {
+        "hello-to": "World"
+    },
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.39.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+None
